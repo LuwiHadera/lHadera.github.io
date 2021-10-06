@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(119, 148, 202);
+}
+
+.container{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+button{
+    float: right;
+}
+
+.middle{
+    margin:180px;  
+}
+
+#btn2{
+   margin-right: 350px;
+}
+#logo1{
+    float: right;
+}
+a{
+    justify-content: space-between;
+    margin-right: 11px;
+}
+.last{
+margin-left:350px;
+}
+
+

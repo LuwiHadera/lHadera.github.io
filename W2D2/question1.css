@@ -1,0 +1,23 @@
+.flex-container {
+  display: flex;
+
+
+  flex-flow: row wrap;
+
+  justify-content: space-between;
+
+  background-color: whitesmoke;
+}
+
+.flex-container > div {
+  background-color: lightblue;
+
+  width: 300px;
+
+  margin: 0;
+
+  padding: 10px;
+}
+
+
+
