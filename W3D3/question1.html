@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="./question1.js"></script>
+</head>
+
+<body>
+    <div class="container my-4">
+        <div class="bg-warning text-warning">f</div>
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-7">
+
+                
+                <form action="./newform.html">
+
+                    <h1 style="text-align: center;">Responsive Registration Form</h1>
+                    <div class=" input-group mt-3">
+                        <span class="input-group-text"><img width="40" src="./images/maildownload.png" /></span>
+
+                        <input type="email" class="form-control" placeholder="Email" name="email" required/>
+                        <div class="invalid-feedback">Please fill out this!!</div>
+                    </div>
+                    
+                    <div class="input-group mt-3">
+                        <span class="input-group-text"><img width="40" src="./images/psswdownload.png"></span>
+
+                        <input type="password" class="form-control" placeholder="Password" id="password1"required/>
+                    </div>
+                    <div class="input-group mt-3">
+                        <span class="input-group-text"><img width="40" src="./images/psswdownload.png"></span>
+
+                        <input type="password" class="form-control" placeholder="Re-type Password" id="password2"required/>
+                    </div>
+                    <div class="">
+                        <div class="row">
+                            <div class=" input-group mt-3 col">
+                                <span class="input-group-text"><img width="40" src="./images/userdownload.png"></span>
+                                <input type="text" class="form-control" placeholder="First Name" name='first name'id="fname"required/>
+                            </div>
+                            <div class=" input-group mt-3 col">
+                                <span class="input-group-text"><img width="40" src="./images/userdownload.png"></span>
+                                <input type="text" class="form-control" placeholder="Last Name" name='last name'id="lname"required/>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row">
+                            
+                        <span class=" col form-check mt-3">
+                            <input type="radio" class="form-check-input" name="gender" value="Male" required/>Male
+                            <label class="form-check-label" for="radio1"></label>
+                        </span>
+                        <span class=" col form-check mt-3">
+                            <input type="radio" class="form-check-input" name="gender" value="Female" required/>Female
+                            <label class="form-check-label" for="radio1"></label>
+                        </span>
+                    </div>
+                    </div>
+                    <div class="">
+                        <select class="form-select mt-3" aria-placeholder="Select a country" name='country'>
+                            <option>Select a Country</option>
+                            <option value="">Eritrea</option>
+                            <option value="">USA</option>
+                            <option value="">Russia</option>
+                            <option value="">Dubai</option>
+                        </select>
+                    </div>
+                    <div class="">
+                        <div class="form-check mt-3">
+                            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something"
+                                checked>
+                            <label class="form-check-label" for="check1">I agree with terms and conditions</label>
+                        </div>
+                        <div class="form-check mt-3">
+                            <input type="checkbox" class="form-check-input" id="check2" name="option2"
+                                value="something">
+                            <label class="form-check-label" for="check2">I want to receive the newsletter</label>
+                        </div>
+                    </div>
+                    <div class="d-grid mt-3">
+                        <button type="submit" class="btn btn-warning">Register</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</body>
+
+</html>
