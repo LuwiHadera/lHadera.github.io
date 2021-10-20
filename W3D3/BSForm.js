@@ -8,6 +8,7 @@ window.onload= function(){
         let value2 = document.getElementById('password2').value
         let paswd=  /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
         
+        
         if (value1 !== value2) {
             alert('Password does not match')
         }else if(value1.length < 8 || value2.length > 14){
